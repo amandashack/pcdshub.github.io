@@ -149,7 +149,7 @@ Conda deployment.
 
 .. code:: bash
 
-   $ conda env create -n myenvname -f /reg/g/pcds/pyps/conda/pcds-envs/pcds.yaml
+   $ conda create -n myenvname -f /reg/g/pcds/pyps/conda/pcds-envs/pcds.yaml
 
 This will create an environment ``myenvname`` that is an exact copy of the
 deployment environment in your own Conda installation.
